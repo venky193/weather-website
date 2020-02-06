@@ -35,8 +35,8 @@ app.get('/about', (req, res) => {
 
 app.get('/help', (req, res) => {
     res.render('help', {
+        title: 'Help Page',
         helpText: 'Some helpful text for use',
-        title: 'Help Page for use',
         name: 'Venkatesh Khanna'
     })
 })
